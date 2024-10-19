@@ -1,0 +1,33 @@
+{
+  "name": "namste-react",
+  "version": "1.0.0",
+  "description": "This is nammaste React Practice",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DipakAnand/namste-react.git"
+  },
+  "keywords": [
+    "Naste",
+    "React"
+  ],
+  "author": "Dipak Anand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DipakAnand/namste-react/issues"
+  },
+  "homepage": "https://github.com/DipakAnand/namste-react#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

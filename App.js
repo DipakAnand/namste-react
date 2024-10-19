@@ -1,3 +1,7 @@
+import React from "react";
+import { ReactDOM } from "react-dom";
+import { createRoot, render } from "react-dom/client";
+
 const root = document.getElementById("app");
 const main = React.createElement(
   "div",
@@ -29,5 +33,7 @@ const main = React.createElement(
     ]),
   ])
 );
-const rootMain = ReactDOM.createRoot(root);
-rootMain.render(main);
+// const xyz = ReactDOM;
+// const rootMain = ReactDOM.createRoot(root);
+// rootMain.render(main);
+render(main, document.getElementById("app"));
